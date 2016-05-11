@@ -2,7 +2,7 @@
 
 = content_for :header do
   %p.buttons
-    = link_to t('shoppe.orders.new_order'), :new_order, :class => 'button blue'
+    = link_to t('shoppe.orders.new_order'), :new_order, :class => 'button'
     = link_to t('shoppe.orders.search_orders'), '#', :class => 'button', :rel => 'searchOrders'
   %h2.orders
     = t('shoppe.orders.orders')
@@ -19,7 +19,7 @@
         %th= t('shoppe.orders.status')
         %th= t('shoppe.orders.products')
         %th= t('shoppe.orders.total')
-        %th= t('shoppe.orders.payment')
+        / %th= t('shoppe.orders.payment')
     %tbody
       - if @orders.empty?
         %tr.empty
