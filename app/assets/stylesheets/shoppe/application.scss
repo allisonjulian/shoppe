@@ -19,7 +19,7 @@ nav.sidebar {
 	bottom:0;
 	header.logo {
 		height:57px;
-		background:image-url('shoppe/GrechellesKitchen.png/') #84D3DC no-repeat 22px 25px;
+		background:image-url('shoppe/GrechellesKitchen.png') #84D3DC no-repeat 22px 25px;
 		background-size:45px;
 		padding-left:80px;
 		padding-top:28px;
@@ -27,7 +27,7 @@ nav.sidebar {
 			display:block;
 			width:72px;
 			height:16px;
-			background:image-url('shoppe/shoppe.svg') no-repeat;
+			background:image-url('shoppe/GrechellesKitchen.png') no-repeat;
 			background-size:72px 16px;
 			text-indent:-40000px;
 		}
