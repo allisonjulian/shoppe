@@ -13,7 +13,7 @@ body { font-family:$font; font-weight: normal; font-size: 100%; min-width:900px;
 
 html.login {
   background:image-url('shoppe/GrechellesKitchen.png') #ffffff no-repeat center 150px;
-  background-size:70px;
+  background-size:100px;
 	
 	#flash-alert {
 		background:#C17391;
@@ -97,7 +97,7 @@ html.login {
     p.reset {
       background:#84d3dc;
       font-size:0.9em;
-      padding:15px 0;
+      padding:25px 0;
       text-align:center;
       a { color:rgba(255,255,255,0.5);}
     }
