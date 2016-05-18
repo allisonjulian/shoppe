@@ -39,6 +39,7 @@ Shoppe::Engine.routes.draw do
   resources :users
   resources :countries
   resources :attachments, only: :destroy
+  resources :calendars
 
   get 'settings' => 'settings#edit'
   post 'settings' => 'settings#update'
