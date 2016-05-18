@@ -16,3 +16,5 @@ gemspec
 gem 'pg' if ENV['DB'] == 'postgresql'
 
 gem 'awesome_nested_set', '~> 3.0'
+gem 'shoppe-notification'
+gem 'simple_calendar', '~> 2.0'
