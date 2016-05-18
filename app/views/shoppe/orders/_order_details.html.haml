@@ -3,8 +3,8 @@
     %dl
       %dt= t('shoppe.orders.name')
       %dd= @order.full_name
-      %dt= t('shoppe.orders.company')
-      %dd= @order.company.blank? ? '-' : @order.company
+      / %dt= t('shoppe.orders.company')
+      / %dd= @order.company.blank? ? '-' : @order.company
       %dt
         - if @order.separate_delivery_address?
           = t('shoppe.orders.billing_address')
@@ -32,11 +32,11 @@
       %dd= mail_to @order.email_address
       %dt= t('shoppe.orders.telephone')
       %dd= @order.phone_number
-      %dt= t('shoppe.orders.weight')
-      %dd= number_to_weight @order.total_weight
+      / %dt= t('shoppe.orders.weight')
+      / %dd= number_to_weight @order.total_weight
       - if @order.received?
-        %dt= t('shoppe.orders.build_time')
-        %dd= distance_of_time_in_words(@order.created_at, @order.received_at)
+        / %dt= t('shoppe.orders.build_time')
+        / %dd= distance_of_time_in_words(@order.created_at, @order.received_at)
       - if @order.invoiced?
         %dt= t('shoppe.orders.invoice_number')
         %dd= @order.invoice_number
