@@ -12,7 +12,7 @@ body { font-family:$font; font-weight: normal; font-size: 100%; min-width:900px;
 @import 'variables';
 
 html.login {
-  background:image-url('shoppe/GrechellesKitchen.png') #ffffff no-repeat center 300px;
+  background:image-url('shoppe/GrechellesKitchen.png') #ffffff no-repeat center 150px;
   background-size:150px;
 	
 	#flash-alert {
@@ -61,6 +61,8 @@ html.login {
     margin:auto;
     margin-top:200px;
 		padding-top:20px;
+    padding-bottom: 20px;
+    border:1px solid #84d3dc;
 		
 		h2 {
 			text-align:center;
